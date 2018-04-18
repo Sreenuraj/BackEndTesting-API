@@ -8,7 +8,7 @@ class DBConnect:
 
     def __connect(self, db):
         host = "127.0.0.1"
-        conn = pymysql.connect(host=host, port=3306, user='root', password='mysql', db=db)
+        conn = pymysql.connect(host=host, port=3306, user='root', passwd='mysql', db=db)
         return conn
 
     def select_method(self, db, query):

@@ -3,11 +3,15 @@ from tools.db_connect import DBConnect
 import json
 
 req = BasicAuth()
+qry = DBConnect()
 
 
 def test_insert_product():
-    title = 'TEST4 TITLE'
-    price = '6.99'
+    global product_id
+    global title
+    global price
+    title = 'TEST5 TITLE'
+    price = '5.99'
 
     input_data = {
         'product': {
@@ -39,4 +43,18 @@ def test_insert_product():
     print('The create_product test PASS')
 
 
+def test_verify_product_in_db():
+    sql = "select a.post_title, a.post_type, b.meta_value from wp825.wpjm_posts a " \
+          "inner join wp825.wpjm_postmeta b on a.id = b.post_id " \
+          "where a.id={} and b.meta_key='_regular_price'".format(product_id)
+    result = qry.select_method('wp825', sql)
+
+    assert title == result[0][0], "Title mismatch"
+    assert result[0][1] == 'product', "Product type mismatch"
+    assert price == result[0][2], "Price mismatch"
+
+    print("Verify product in DB pass")
+
+
 test_insert_product()
+test_verify_product_in_db()

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92f44007-1c8c-4b56-ad59-11ae84b17043" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/testcase/test_product_positive.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/basic_auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/db_connect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/test_product_positive.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_product_positive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/db_connect.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/db_connect.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,8 +26,8 @@
       <file leaf-file-name="test_product_positive.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testcase/test_product_positive.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="438">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -40,8 +38,8 @@
       <file leaf-file-name="db_connect.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tools/db_connect.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+            <state relative-caret-position="-30">
+              <caret line="10" column="71" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -61,8 +59,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tools/db_connect.py" />
         <option value="$PROJECT_DIR$/tools/basic_auth.py" />
+        <option value="$PROJECT_DIR$/tools/db_connect.py" />
         <option value="$PROJECT_DIR$/testcase/test_product_positive.py" />
       </list>
     </option>
@@ -206,13 +204,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tools/db_connect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/basic_auth.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -220,10 +211,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tools/db_connect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="10" column="71" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testcase/test_product_positive.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="438">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
